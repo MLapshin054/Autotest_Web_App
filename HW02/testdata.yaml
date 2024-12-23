@@ -1,0 +1,9 @@
+address: https://test-stand.gb.ru
+browser: chrome
+sleep_time: 3
+wait: 5
+username: Sarah02
+password: 0f261f5785
+title: Test Post 2
+description: Some description 2
+content: Some random text 2

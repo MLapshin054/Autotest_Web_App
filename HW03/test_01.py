@@ -76,4 +76,4 @@ class TestPositive:
         testpage = OperationsHelper(browser)
         testpage.click_contact_save_btn()
         time.sleep(testdata["wait"])
-        assert "Form successfully submitted" in testpage.switch_contact_alert()
+        assert "Form successfully submitted" in testpage.get_contact_alert()

@@ -134,7 +134,7 @@ class OperationsHelper(BasePage):
         logging.info("Click Contact Us button")
         self.find_element(TestSearchLocators.LOCATOR_CONTACT_SAVE_BTN).click()
 
-    def switch_contact_alert(self):
+    def get_contact_alert(self):
         alert = self.driver.switch_to.alert
         text = alert.text
         logging.info(f"We find text {text} in alert")

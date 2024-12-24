@@ -1,0 +1,11 @@
+address: https://test-stand.gb.ru/
+username: Sarah02
+password: 0f261f5785
+browser: chrome
+wait: 5
+post_title: Test Post 4
+post_description: Some description 4
+post_content: Testing form "Contact us"
+contact_us_name: Test User
+contact_us_email: testmail@mail.com
+contact_us_content: Some random text

@@ -1,0 +1,36 @@
+2024-12-24 20:04:28 INFO ====== WebDriver manager ======
+2024-12-24 20:04:29 INFO Get LATEST chromedriver version for google-chrome
+2024-12-24 20:04:29 INFO Get LATEST chromedriver version for google-chrome
+2024-12-24 20:04:30 INFO Driver [C:\Users\MLapshin\.wdm\drivers\chromedriver\win64\131.0.6778.204\chromedriver-win32/chromedriver.exe] found in cache
+2024-12-24 20:04:31 INFO Negative test 1 Start
+2024-12-24 20:04:32 INFO Send test in element //*[@id="login"]/div[1]/label/input
+2024-12-24 20:04:32 INFO Send test in element //*[@id="login"]/div[2]/label/input
+2024-12-24 20:04:32 INFO Click login button
+2024-12-24 20:04:37 INFO We find text 401 in error field//*[@id="app"]/main/div/div/div[2]/h2
+2024-12-24 20:04:37 INFO Positive test 1 Start
+2024-12-24 20:04:37 INFO Send Sarah02 in element //*[@id="login"]/div[1]/label/input
+2024-12-24 20:04:37 INFO Send 0f261f5785 in element //*[@id="login"]/div[2]/label/input
+2024-12-24 20:04:38 INFO Click login button
+2024-12-24 20:04:47 INFO We find text Hello, Sarah02 in field //*[@id="app"]/main/nav/ul/li[3]/a
+2024-12-24 20:04:47 INFO Positive test 2 Start
+2024-12-24 20:04:47 INFO Click new post button
+2024-12-24 20:04:48 INFO Send Test Post 4 to title field //*[@id="create-item"]/div/div/div[1]/div/label/input
+2024-12-24 20:04:48 INFO Send Some description 4 to description field //*[@id="create-item"]/div/div/div[2]/div/label/span/textarea
+2024-12-24 20:04:48 INFO Send Testing form "Contact us" to content field //*[@id="create-item"]/div/div/div[3]/div/label/span/textarea
+2024-12-24 20:04:48 INFO Click save button
+2024-12-24 20:04:57 INFO We find text Test Post 4 in title //*[@id="app"]/main/div/div[1]/h1
+2024-12-24 20:04:57 INFO Positive test 3 Start
+2024-12-24 20:04:57 INFO Click Contact link
+2024-12-24 20:05:02 INFO We find text Contact us! in title //*[@id="app"]/main/div/div/h1
+2024-12-24 20:05:02 INFO Positive test 4 Start
+2024-12-24 20:05:02 INFO Send Test User to name field //*[@id="contact"]/div[1]/label/input
+2024-12-24 20:05:02 INFO We find text Test User in name field //*[@id="contact"]/div[1]/label/input
+2024-12-24 20:05:02 INFO Positive test 5 Start
+2024-12-24 20:05:02 INFO Send testmail@mail.com to email field //*[@id="contact"]/div[2]/label/input
+2024-12-24 20:05:02 INFO We find text testmail@mail.com in email field //*[@id="contact"]/div[2]/label/input
+2024-12-24 20:05:02 INFO Positive test 6 Start
+2024-12-24 20:05:02 INFO Send Some random text to content field //*[@id="contact"]/div[3]/label/span/textarea
+2024-12-24 20:05:02 INFO We find text Some random text in content field //*[@id="contact"]/div[3]/label/span/textarea
+2024-12-24 20:05:02 INFO Positive test 7 Start
+2024-12-24 20:05:02 INFO Click Contact Us button
+2024-12-24 20:05:07 INFO We find text Form successfully submitted in alert

@@ -1,0 +1,24 @@
+address: https://test-stand.gb.ru/
+username: Sarah02
+password: 0f261f5785
+browser: chrome
+wait: 5
+
+title_api: Test Post - API
+description_api: Some description - API
+content_api: Some random text - API
+
+post_title: Test Post - UI
+post_description: Some description - UI
+post_content: Testing form - UI
+
+contact_us_name: Test User
+contact_us_email: testmail@mail.com
+contact_us_content: Some random text
+
+reportname: pytest_html_report.html
+fromaddr: test_gb89@mail.ru
+toaddr: test_gb89@mail.ru
+mypass: **********
+
+

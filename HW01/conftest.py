@@ -15,7 +15,7 @@ def login():
 
 @pytest.fixture()
 def testtext1():
-    return "New Test Post"
+    return "New post for auto"
 
 
 @pytest.fixture()

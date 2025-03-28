@@ -23,6 +23,7 @@ def browser():
     else:
         service = Service(executable_path=ChromeDriverManager().install())
         options = webdriver.ChromeOptions()
+        #options.add_argument('--headless')
         driver = webdriver.Chrome(service=service, options=options)
     yield driver
     driver.quit()
@@ -63,7 +64,8 @@ def login():
 
 @pytest.fixture()
 def testtext1():
-    return "New post for auto"
+    return "testtitle"  # Значение постоянно меняется. Перед запуском - проверить выдачу,
+    # запустив тест отдельно.
 
 
 @pytest.fixture()

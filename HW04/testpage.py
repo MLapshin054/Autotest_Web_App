@@ -194,6 +194,7 @@ class ApiOperations():
             if posts is None:
                 return False
             listres = [i[field] for i in posts]
+            #print(f'Text for assertion is -> {listres[0]}') # ---> выдает в консоль заголовок для сравнения в тест API1
             return text in listres
         except:
             logging.exception("Exception while assertion")

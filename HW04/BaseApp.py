@@ -10,7 +10,7 @@ with open("./testdata.yaml") as f:
 class BasePage:
     def __init__(self, driver):
         self.driver = driver
-        self.base_url = "https://test-stand.gb.ru/"
+        self.base_url = testdata["address"]
 
     def find_element(self, locator, time=10):
         try:
